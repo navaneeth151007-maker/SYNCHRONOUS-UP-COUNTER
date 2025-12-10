@@ -34,6 +34,7 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 5.Simulate the design with different clk and rstn combinations to generate the timing diagram, and save the results.
 
 **PROGRAM**
+UP COUNTER
 ```
 module ex11(out,clk,rst);
 input clk,rst;
@@ -47,12 +48,33 @@ begin
 end
 endmodule
 ```
+DOWN COUNTER
+```
+module ex12(out,clk,rst);
+input clk,rst;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+   if(rst)
+     out<=0;
+   else 
+     out <= out-1;
+end
+endmodule
+```
 
 **RTL LOGIC UP COUNTER**
 
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a54a099e-8520-4371-934a-09e7efe6b29f" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e83647d7-29e6-4db3-986a-07ad132c4925" />
+
 **TIMING DIAGRAM FOR IP COUNTER**
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/605b4d6e-99b8-4b85-8099-ffbf131ba576" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2718db1-cce4-41fe-ac41-edb95e3fad68" />
 
 **TRUTH TABLE**
 
