@@ -63,14 +63,13 @@ end
 endmodule
 ```
 
-**RTL LOGIC UP COUNTER**
-
+**TIMING DIAGRAM FOR IP COUNTER**
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a54a099e-8520-4371-934a-09e7efe6b29f" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e83647d7-29e6-4db3-986a-07ad132c4925" />
 
-**TIMING DIAGRAM FOR IP COUNTER**
+**RTL LOGIC UP COUNTER**
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/605b4d6e-99b8-4b85-8099-ffbf131ba576" />
 
